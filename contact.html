@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuganta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Emerland&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="yuganta-logo.png" type="image/x-icon">
+</head>
+<body oncontextmenu="disableRightClick(event)">
+    <header id="main-header">
+        <nav>
+            <div class="nav-logo" onclick="toggleHeader()">
+                Yuganta
+            </div>
+        </nav>
+        <button class="close-btn" onclick="toggleHeader()">Close</button>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="innovation.html">Innovation</a>
+            <a href="about.html">About</a>
+        </div>
+    </header>
+    <main>
+        <div class="contact-card">
+            <h2>Contact Us</h2>
+            <p>We’d love to hear from you. Reach out to us via the form or details below.</p>
+          
+            <div class="contact-details">
+              <p><strong>Email:</strong> </p>
+              <p><strong>Phone:</strong> +91 </p>
+              <p><strong>Address:</strong> </p>
+            </div>
+          
+            <form>
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <textarea placeholder="Your Message" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+    </main>
+    <footer>
+        <div class="footer-section">
+            <h3>Yuganta</h3>
+            <p>Mean to be incredible</p>
+        </div>
+        <div class="footer-section">
+            <h3>Social</h3>
+            <a href="#">Instagram</a>
+            <a href="#">X</a>
+            <a href="#">Youtube</a>
+        </div>
+        <div class="footer-section">
+            <h3>Accesibility</h3>
+            <a href="#">Sitemap</a>
+            <a href="#">Legal</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="footer-section">
+            <img src="yuganta.png" alt="Logo">
+            <p id="copyright"></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
